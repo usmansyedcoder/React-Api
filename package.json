@@ -1,11 +1,14 @@
 {
-  "name": "my-vue-app5",
+  "name": "react-api-demo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://usmansyedcoder.github.io/React-Api",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -25,10 +28,4 @@
     "eslint-plugin-react-refresh": "^0.4.6",
     "vite": "^5.2.0"
   }
-  "homepage": "https://yourusername.github.io/your-repo-name",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
-
 }
